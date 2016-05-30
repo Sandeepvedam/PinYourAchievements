@@ -45,3 +45,32 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+# compiled output
+PYA-Client/dist
+PYA-Client/tmp
+
+# dependencies
+PYA-Client/node_modules
+PYA-Service/node_modules
+PYA-Client/bower_components
+
+# IDEs and editors
+PYA-Client/.idea
+
+# misc
+PYA-Client/.sass-cache
+PYA-Client/connect.lock
+PYA-Client/coverage/*
+PYA-Client/libpeerconnection.log
+PYA-Clientnpm-debug.log
+PYA-Clienttestem.log
+PYA-Client/typings
+
+# e2e
+PYA-Client/e2e/*.js
+PYA-Client/e2e/*.map
+
+#System Files
+PYA-Client/.DS_Store

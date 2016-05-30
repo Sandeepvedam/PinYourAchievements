@@ -1,0 +1,24 @@
+{
+  "name": "pya-service",
+  "version": "1.0.0",
+  "description": "A koa.js server serving sample achievements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Koa.js"
+  ],
+  "author": "Ravi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "koa": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-route": "^2.4.2",
+    "underscore": "^1.8.3"
+  }
+}
