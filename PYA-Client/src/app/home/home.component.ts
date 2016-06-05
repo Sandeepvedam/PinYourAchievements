@@ -7,7 +7,7 @@ import {Achievement} from '../shared/achievement.model';
   templateUrl: "app/home/home.component.html"
 })
 export class HomeComponent {
-  achievements: Array<any>;
+  achievements: Array<Achievement>;
 
   constructor(private achievementsService: AchievementsService) {
     achievementsService.getAllAchievements()

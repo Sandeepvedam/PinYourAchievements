@@ -20,7 +20,7 @@ export class AchievementsService {
 		return this.http.get(path);
 	}
 
-	addAnAchievement(newAchievement): Observable<Response> {
+	addAnAchievement(newAchievement: Achievement): Observable<Response> {
 		var path = `${this.urlPrefix}/api/achievements`;
 		return this.http.post(path, JSON.stringify(newAchievement));
 	}
